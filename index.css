@@ -238,8 +238,8 @@ button {
     width: calc(100% - 30px); 
   }
    .tweet-detail i {
-    font-size: 16px; !important
-    margin: 0 8px; !important 
+    font-size: 16px !important
+    margin: 0 8px !important 
      vertical-align: middle;
   }
   
