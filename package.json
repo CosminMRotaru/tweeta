@@ -2,12 +2,11 @@
   "homepage": "https://CosminMRotaru.github.io/tweeta"
   "name": "Scrim-s02tj9e",
   "description": "https://scrimba.com/frontend-path-c0j/~0gr",
-  "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+   "scripts": {
+    "build": "vite build --base=/tweeta/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "vite": "latest"
   },
