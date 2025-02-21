@@ -83,9 +83,9 @@ button {
   background-color: #4b0082;
   border: none;
   color: white;
-  padding: 8px 12px;
+  padding: 8px 20px;
   border-radius: 20px;
-  width: 30%;
+  width: auto;
   cursor: pointer;
   font-size: 14px;
   font-weight: 600;
@@ -95,9 +95,9 @@ button {
 
 .tweet {
   border-top: 1px solid lightgray;
-  padding: 20px 0 0 0;
+  padding: 20px 0;
   width: 100%;
-  margin: 15px 0;
+  margin: 15px auto;
 }
 
 .tweet-inner {
@@ -121,7 +121,7 @@ button {
 .tweet-reply {
   border-top: 1px solid lightgray;
   padding: 20px 0 0 0px;
-  margin: 10px 0 10px 40px;
+  margin: 10px 0 10px 30px;;
   width: 80%;
 }
 
@@ -201,13 +201,13 @@ button {
     font-size: 14px;
     padding: 12px 0;
     margin: 12px 0;
-    max-width: 150px;
+    max-width: 100%;
     width: 100%;
   }
 
   .tweet-inner {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    
   }
 
 
@@ -236,10 +236,16 @@ button {
   }
 
   .tweet-reply {
-    margin-left: 30px; 
+    margin-left: 20px; 
     width: calc(100% - 30px); 
   }
   
+}
+[data-addreply] { 
+  background-color: #4b0082;
+  color: white;
+  border-radius: 15px;
+  margin-top: 10px;
 }
 
 
